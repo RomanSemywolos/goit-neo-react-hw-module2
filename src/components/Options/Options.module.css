@@ -1,0 +1,16 @@
+.ratingButtons {
+    border: none; /* Прибирає рамку */
+    padding: 0;   /* Прибирає внутрішні відступи */
+    margin: 0;    /* Прибирає зовнішні відступи */
+  }
+  
+  .srOnly {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0); /* Приховує елемент з екрану */
+    border: 0;
+  }
